@@ -1,0 +1,152 @@
+main {
+    background: #fff;
+    border-radius: 0.8rem;
+    height: 60vh;
+    position: relative;
+}
+
+main #close {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.event {
+    margin: 1.5rem 0 0 1rem;
+    
+}
+
+.event h3 {
+    font-weight: 200;
+}
+
+.box{
+    border-radius: 0.5rem;
+    margin: 0.5rem 1rem 0 1rem;    
+}
+
+.box img {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 30vh;
+    
+
+    
+}
+
+main .box .content {
+    padding: 0.5rem 1rem;
+}
+
+main .box .content p{
+    font-weight: 100;
+}
+
+.btn{
+    border: none;
+    background: #0a66c2;
+    padding: 0.6rem 1rem;
+    border-radius: 5rem;
+    margin: 0.5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s all ease;
+}
+
+.btn:hover{
+    background: #1270ce;
+}
+
+.media{
+    background: #fff;
+    height: 20vh;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+}
+
+.media .search{
+    display: flex;
+    gap: 1rem;
+    padding: 0.8rem;
+}
+
+.search img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search input{
+    border-radius: 5rem;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.search input:hover{
+    background: rgb(233, 233, 233);
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    color: gray;
+    padding: 0.5rem 0 0 1rem;
+}
+
+.photo i{
+    font-size: 1.2rem;
+    color: #378FE9;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    color: gray;
+    padding: 0.5rem 0 0 1rem;
+}
+
+.video i{
+    font-size: 1.2rem;
+    color: green;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    color: gray;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.audio i{
+    font-size: 1.2rem;
+    color: chocolate;
+}
+
+.write {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    color: gray;
+    padding: 0.5rem 1.3rem 0 0.5rem;
+}
+
+.write i{
+    font-size: 1.2rem;
+    color: coral;
+}
+

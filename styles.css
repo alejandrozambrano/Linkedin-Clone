@@ -10,3 +10,13 @@
 body {
     background: rgb(235, 235, 235);
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    gap: 1.5rem;
+    width: 85%;
+    margin: 1.4rem auto;
+}
+
+

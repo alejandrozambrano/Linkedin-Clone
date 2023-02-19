@@ -1,0 +1,223 @@
+.sidebar{
+    background-color: #fff;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.top {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(82, 92, 105);
+    position: absolute;
+}
+
+.sidebar img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3%;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid #fff;
+}
+
+.sidebar .profile {
+    position: relative;
+    text-align: center;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    height: 8vh;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #000;
+}
+
+.profile a:hover{
+  text-decoration: underline;
+}
+
+
+.profile small {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.sidebar .view {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 6%;
+    height: 10vh;
+}
+
+.views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    font-size: 100;
+}
+
+.views:hover{
+ background-color: rgb(209, 209, 209);
+}
+
+.views h6{
+    color: gray;
+    font-size: 100;
+}
+
+.views a{
+    color: #0a66c2;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.premium{
+    position: relative;
+    top: 7%;
+}
+
+.premium h6{
+    color: gray;
+    font-size: 100;
+    margin-left: 1rem;
+}
+.premium a{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: #000;
+    
+}
+
+.premium a i{
+    color: rgb(211, 211, 33);
+}
+
+hr#premium,
+hr#view,
+hr#profile{
+    margin: 0.5rem 0;
+}
+
+.items{
+    position: relative;
+    top: 7%;
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.4rem 0 0 1rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.recent_jobs{
+    background-color: #fff;
+    margin-top: 0.7rem;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.recent{
+    margin: 1rem 1rem;
+    gap: 4rem;
+}
+
+
+.one{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.one:hover{
+    background-color: rgb(209, 209, 209);
+    color: #000;
+}
+
+.recent_jobs h6{
+    font-weight: 100;
+}
+
+.recent_dev i{
+   font-size: 0.8rem;
+}
+
+
+.groups{
+    margin: 2rem 0 0 0 1rem;
+}
+
+.groups h5{
+    color: #0a66c2;
+    font-size: 0.7rem;
+}
+
+.two {
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.two:hover{
+    background-color: rgb(209, 209, 209);
+    color: #000;
+}
+
+.show {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+    gap: 0.5rem;
+    color: gray;
+}
+
+.events{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 0 0;
+}
+
+.events h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.events i{
+    color: gray;
+    cursor: pointer;
+}
+    
+.discover{
+    text-align: center;
+    margin: 2rem 0 0 0;
+    border-top: 1px solid rgb(144, 144, 144);
+    padding-top: 1rem;
+}
+
+.discover a{
+    text-decoration: none;
+    color: gray;
+    
+}
