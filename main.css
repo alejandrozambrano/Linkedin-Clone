@@ -96,6 +96,7 @@ main .box .content p{
 .post {
     display: flex;
     justify-content: space-between;
+    margin: 0.6rem 2rem;
 }
 
 .photo {
@@ -103,7 +104,6 @@ main .box .content p{
     flex-direction: row;
     gap: 0.7rem;
     color: gray;
-    padding: 0.5rem 0 0 1rem;
 }
 
 .photo i{
@@ -116,7 +116,6 @@ main .box .content p{
     flex-direction: row;
     gap: 0.7rem;
     color: gray;
-    padding: 0.5rem 0 0 1rem;
 }
 
 .video i{
@@ -129,7 +128,6 @@ main .box .content p{
     flex-direction: row;
     gap: 0.7rem;
     color: gray;
-    padding: 0.5rem 0 0 0.5rem;
 }
 
 .audio i{
@@ -142,11 +140,16 @@ main .box .content p{
     flex-direction: row;
     gap: 0.7rem;
     color: gray;
-    padding: 0.5rem 1.3rem 0 0.5rem;
 }
 
 .write i{
     font-size: 1.2rem;
     color: coral;
+}
+
+.post:hover{
+    background: rgb(235, 235, 235);
+    border-radius: 0.2rem;
+    gap: 1rem;
 }
 
